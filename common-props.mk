@@ -146,6 +146,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_prefetch_ofr=0 \
     vendor.iop.enable_uxe=0
 
+# ParanoidDoze
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sensor.proximity=true \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+
 # RCS and IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.rcs.supported=0 \
